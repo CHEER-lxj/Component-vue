@@ -1,14 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <vHeader></vHeader>
     <router-view/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  import vHeader from './components/v-header'
+
+  export default {
+    name: 'app',
+    components: {vHeader}
+  }
 </script>
 
 <style>
