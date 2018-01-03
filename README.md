@@ -1,6 +1,7 @@
 <div align="center">
   <img width="360" src="src/assets/logo.png" alt="component" />
   <br>
+  <br>
 
   <a href="javascript:;"><img src="https://img.shields.io/badge/language-JavaScript-brightgreen.svg" /></a>
   <a href="https://opensource.org/licenses/mit-license.php"><img src="https://img.shields.io/badge/license-MIT-blue.svg" /></a>
