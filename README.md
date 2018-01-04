@@ -14,9 +14,12 @@
 
 > A Vue.js project. Creat to develop common components.
 
-使用VUE框架，仿照 Ant Design UI样式，开发一些常用前端组件。
+使用VUE框架，仿照 Ant Design UI样式，开发一些常用前端组件。使用flex布局实现。
 
 基础组件列表:
-- menu
+- alert
+- model
+- pagination
+- timeLine
 - timePicker
 

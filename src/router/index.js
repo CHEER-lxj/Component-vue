@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import mainContent from '@/components/mainContent'
+import alert from '@/components/alert'
 
 Vue.use(Router)
 
@@ -8,8 +9,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'mainContent',
+      component: mainContent
+    },
+    {
+      path: '/alert',
+      name: 'alert',
+      component: alert
     }
   ]
 })
