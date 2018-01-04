@@ -1,5 +1,5 @@
 <template>
-    <section class="cv-header">
+    <section :class="[prefixCls]">
         <ul>
             <li>alert</li>
             <li>modal</li>
@@ -12,9 +12,13 @@
 </template>
 
 <script>
-
+    const prefixCls = 'cv-menu'
+    export default {
+      name: 'cvMenu',
+      data: function () {
+        return {
+          prefixCls: prefixCls
+        }
+      }
+    }
 </script>
-
-<style scoped>
-
-</style>
