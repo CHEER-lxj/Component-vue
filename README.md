@@ -16,3 +16,6 @@
 
 使用VUE框架，仿照 Ant Design UI样式，开发一些常用前端组件。
 
+基础组件列表:
+- menu
+- timePicker
