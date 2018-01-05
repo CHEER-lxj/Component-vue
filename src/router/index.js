@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import mainContent from '@/components/mainContent'
-import alert from '@/components/alert/alert'
+import alertExample from '@/components/alert/alertExample'
 
 Vue.use(Router)
 
@@ -14,8 +14,8 @@ export default new Router({
     },
     {
       path: '/alert',
-      name: 'alert',
-      component: alert
+      name: 'alertExample',
+      component: alertExample
     }
   ]
 })

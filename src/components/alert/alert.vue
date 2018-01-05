@@ -5,14 +5,15 @@
  */
 <template>
   <section :class="[prefixCls]">
-   <div>
-     <h1>Alert 警示框</h1>
-     <p>警告提示 展现需要关注的信息</p>
-     <p>非浮层的显示，只显示，不消失，用户可以自定义关闭</p>
-   </div>
-   <div>
-
-   </div>
+     <transition>
+        <div>
+           <!--<span>
+              <slot></slot>
+           </span>-->
+           <span :class="messageClass"><slot></slot></span>
+           <span><slot name="desc"></slot></span>
+        </div>
+     </transition>
   </section>
 
 </template>
@@ -20,9 +21,15 @@
 <script>
  const prefixCls = 'cv-alert'
  export default {
+   name: 'alert',
    data () {
      return {
        prefixCls: prefixCls
+     }
+   },
+   computed: {
+     messageClass () {
+       return `${prefixCls}-message`
      }
    }
  }
