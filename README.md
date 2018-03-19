@@ -18,7 +18,7 @@
 
 基础组件列表:
 - alert
-- model
+- carouser
 - pagination
 - timeLine
 - timePicker
